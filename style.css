@@ -95,3 +95,28 @@ main h2 {
     border: 5px solid #3882F6; 
     border-radius: 7px;
 }
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 120px 100px;
+}
+
+.quote q {
+    font-size: 36px;
+    font-weight: 200; /* ??? */
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote p {
+    padding-left: 560px;
+    font-size: 24px;
+    font-weight: 900;
+
+}
