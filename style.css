@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+/* HEADER & HERO */
+
 .header-hero-container {
     background-color: #1F2937;
 }
@@ -61,5 +63,35 @@ nav a {
     font-weight: 900;
     padding: 10px 30px;
     border: none;
+    border-radius: 7px;
+}
+
+/* RANDOM INFORMATION SECTION */
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.information-card img {
+    border: 5px solid #3882F6; 
     border-radius: 7px;
 }
