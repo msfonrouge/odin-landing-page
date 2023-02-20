@@ -73,12 +73,13 @@ main h2 {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    margin: 50px 0 0;
 }
 
 .information-cards {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 50px 0 100px;
     gap: 50px;
     
 }
@@ -118,5 +119,38 @@ main h2 {
     padding-left: 560px;
     font-size: 24px;
     font-weight: 900;
+}
 
+/* CALL TO ACTION SECTION */
+
+.call-to-action {
+    width: 980px;
+    margin: 100px auto;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    border-radius: 7px;
+}
+
+.call-to-action-text h3 {
+    margin: 0 0 3px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call-to-action p {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 10px 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
 }
