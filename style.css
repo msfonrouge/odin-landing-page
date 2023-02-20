@@ -154,3 +154,14 @@ main h2 {
     border: 2px solid #F9FAF8;
     border-radius: 7px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 20px;
+}
